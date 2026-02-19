@@ -1,15 +1,8 @@
-import "./App.css";
-import Carousal from "./components/Carousal";
-import Navbar from "./components/Navbar";
-import Card from "./components/Card";
-import HotelCards from "./components/HotelCards";
 function App() {
   return (
-    <>
-      <Navbar></Navbar>
-      <Carousal></Carousal>
-      <HotelCards></HotelCards>
-    </>
+    <div className="border border-danger border-2 m-2 p-2 rounded">
+      <h1>Edupoly</h1>
+    </div>
   );
 }
 

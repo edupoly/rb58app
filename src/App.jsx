@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Todolist from "./Todolist";
-import Calc from "./Calc";
+import Counter from "./Counter";
 
 function App() {
   useEffect(function () {
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="border border-danger border-2 m-2 p-2 rounded">
       <h1>Edupoly</h1>
-      <Calc></Calc>
+      <Counter></Counter>
       <Todolist></Todolist>
     </div>
   );
